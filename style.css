@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.bgimage {
+  background: url("/assets/Hero-bg.png");
+  height: 100vh;
+  width: 100%;
+}
+.nav {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* max-width: 1000px; */
+  padding: 0 12vw;
+  margin: 0 auto;
+}
+
+.nav img {
+  height: 7rem;
+  width: 7rem;
+  margin-top: 0.8rem;
+  filter: contrast(2);
+}
+
+.buttonstyle {
+  background-color: #6c63fe;
+  border: none;
+  border-radius: 0.8rem;
+  font-weight: 300;
+  color: white;
+  padding: 0.8rem 2.5rem;
+  cursor: pointer;
+  font-size: 15px;
+  transition: transform 0.1s ease-in 0.1s;
+  box-shadow: 5px 5px 10px blue;
+  font-weight: 400;
+}
+.buttonstyle:hover {
+  background-color: #454196;
+  transform: scale(1.1);
+}
+.navpera {
+  text-align: center;
+  padding: 200px;
+}
+.navpera h1 {
+  font-size: 4rem;
+}
+
+.navpera button {
+  margin-top: 50px;
+}
+.fontcolor {
+  color: rgb(74, 73, 73);
+}
