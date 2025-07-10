@@ -38,13 +38,18 @@
   padding: 0.8rem 2.5rem;
   cursor: pointer;
   font-size: 15px;
-  transition: transform 0.1s ease-in 0.1s;
+  transition: transform 0.2s ease-in, background-color 0.2s ease-in;
   box-shadow: 5px 5px 10px blue;
   font-weight: 400;
 }
 .buttonstyle:hover {
   background-color: #454196;
   transform: scale(1.1);
+  transition-delay: 0.2s;
+}
+.buttonstyle:active {
+  transform: scale(1.06);
+  transition-delay: 0s;
 }
 .navpera {
   text-align: center;
@@ -61,18 +66,17 @@
   color: rgb(74, 73, 73);
 }
 
-section{
+.section-1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15vh 10vw;
-
+  padding: 30vh 10vw 12vh 10vw;
 }
-.left > *{
+.left > * {
   margin-top: 25px;
 }
 
-.left p{
+.left p {
   color: rgb(130, 123, 123);
   font-size: 22px;
   width: 400px;
@@ -82,6 +86,74 @@ section{
 }
 
 .right img {
-border-radius: 50px;
-width: 23rem;
+  border-radius: 50px;
+  width: 23rem;
+}
+
+.section-2 {
+  margin: 15vh 10vw;
+  background-color: #e4e6ff;
+  text-align: center;
+  padding: 3rem;
+  border-radius: 1.5rem;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.numbers > * {
+  padding-top: 50px;
+}
+.numbers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  font-weight: bolder;
+}
+.lighter {
+  font-weight: 400;
+  color: rgb(89, 92, 92);
+}
+.bold {
+  color: rgb(81, 81, 242);
+  font-size: 70px;
+}
+
+.section-3{
+  margin: 15vh 10vw;
+}
+
+.box{
+  width: 30vw;
+  height: 45vh;
+  box-shadow: 0.5px 0.5px 5px rgb(171, 167, 167);
+  padding: 30px;
+  border-radius: 1rem;
+}
+.box > .profile , h2{
+  padding-top: 20px;
+}
+i{
+  color: gold;
+  font-size: 1.5rem;
+}
+.section-3 h1{
+    text-align: center;
+    font-size: 40px;
+}
+.icons{
+  text-align: start;
+}
+.profile{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.profile img{
+  border-radius: 20px;
+}
+.boxes{
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
 }
