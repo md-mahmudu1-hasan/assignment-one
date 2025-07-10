@@ -218,12 +218,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-footer img {
-  height: 200px;
-  width: 200px;
-
-  text-align: center;
+  padding-top: 100px;
 }
 
 footer > * {
