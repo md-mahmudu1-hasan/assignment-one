@@ -233,6 +233,11 @@ footer p {
   width: 600px;
   text-align: center;
 }
-footer .p > span {
-  margin-right: 50px;
+a{
+  text-decoration: none;
+    margin-right: 40px;
+}
+footer h1{
+  color: #6C63FE;
+  font-size: 50px;
 }
