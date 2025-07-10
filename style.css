@@ -53,7 +53,7 @@
 }
 .navpera {
   text-align: center;
-  padding: 200px;
+  padding: 150px;
 }
 .navpera h1 {
   font-size: 4rem;
@@ -64,6 +64,9 @@
 }
 .fontcolor {
   color: rgb(74, 73, 73);
+}
+main {
+  background-image: linear-gradient(to bottom ,#cdd2d7 ,#c8e0f7 );
 }
 
 .section-1 {
@@ -119,41 +122,96 @@
   font-size: 70px;
 }
 
-.section-3{
+.section-3 {
   margin: 15vh 10vw;
 }
 
-.box{
+.box {
   width: 30vw;
   height: 45vh;
   box-shadow: 0.5px 0.5px 5px rgb(171, 167, 167);
   padding: 30px;
   border-radius: 1rem;
+  background-color: rgba(255, 255, 255, 0.559);
 }
-.box > .profile , h2{
+.box > .profile,
+h2 {
   padding-top: 20px;
 }
-i{
+i {
   color: gold;
   font-size: 1.5rem;
 }
-.section-3 h1{
-    text-align: center;
-    font-size: 40px;
+.section-3 h1 {
+  text-align: center;
+  font-size: 40px;
 }
-.icons{
+.icons {
   text-align: start;
 }
-.profile{
+.profile {
   display: flex;
   align-items: center;
   gap: 8px;
 }
-.profile img{
+.profile img {
   border-radius: 20px;
 }
-.boxes{
+.boxes {
   display: flex;
   gap: 50px;
   margin-top: 50px;
 }
+
+.section-4 {
+  margin: 10vh 10vw 12vh 10vw;
+  padding: 2%;
+  text-align: center;
+  box-shadow: 1px 1px 10px black;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.section-4 > * {
+  margin: 20px;
+}
+.section-4 img {
+  border-radius: 40px;
+}
+
+.section-5 {
+  margin: 20vh 10vw 12vh 10vw;
+  display: flex;
+align-items: center;
+  justify-content: space-between;
+}
+
+.section-5 .box2 form {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-5 .box1 h1{
+font-size: 70px;
+width: 400px;
+}
+.box2 form input[type="email"] {
+color: brown;
+}
+.box2 form input{
+  width:400px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 1rem;
+  border: none;
+}
+
+.box2 form > * {
+  margin-bottom: 10px;
+}
+
+.box2 form textarea{
+   padding: 40px 20px;
+   margin-bottom:30px ;
+}
+
