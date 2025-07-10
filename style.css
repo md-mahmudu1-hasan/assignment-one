@@ -18,7 +18,7 @@
   justify-content: space-between;
   align-items: center;
   /* max-width: 1000px; */
-  padding: 0 12vw;
+  padding: 0 10vw;
   margin: 0 auto;
 }
 
@@ -59,4 +59,29 @@
 }
 .fontcolor {
   color: rgb(74, 73, 73);
+}
+
+section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15vh 10vw;
+
+}
+.left > *{
+  margin-top: 25px;
+}
+
+.left p{
+  color: rgb(130, 123, 123);
+  font-size: 22px;
+  width: 400px;
+}
+.left h1 {
+  font-size: 40px;
+}
+
+.right img {
+border-radius: 50px;
+width: 23rem;
 }
