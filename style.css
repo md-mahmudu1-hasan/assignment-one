@@ -6,9 +6,8 @@
   box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
 }
-
 .bgimage {
-  background: url("/assets/Hero-bg.png");
+  background: url("assets/Hero-bg.png");
   height: 100vh;
   width: 100%;
 }
@@ -28,7 +27,6 @@
   margin-top: 0.8rem;
   filter: contrast(2);
 }
-
 .buttonstyle {
   background-color: #6c63fe;
   border: none;
@@ -53,7 +51,7 @@
 }
 .navpera {
   text-align: center;
-  padding: 150px;
+  margin-top: 15rem;
 }
 .navpera h1 {
   font-size: 4rem;
@@ -129,7 +127,6 @@ main {
 
 .box {
   width: 30vw;
-  height: 45vh;
   box-shadow: 0.5px 0.5px 5px rgb(171, 167, 167);
   padding: 30px;
   border-radius: 1rem;
@@ -171,6 +168,8 @@ i {
   box-shadow: 1px 1px 10px black;
   border-radius: 50px;
   background-color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .section-4 > * {
